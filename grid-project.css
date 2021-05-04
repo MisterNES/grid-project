@@ -66,15 +66,13 @@ hr {
 .grid__section-1 {
   grid-area: header;
 }
-/* Grid Section 2 - Nested Grid Styles */
+
 .grid__section-2 {
   grid-area: main;
 }
-/* Grid Section 3 Styles */
 .grid__section-3 {
   grid-area: sidebar;
 }
-/* Remaining Section Styles */
 .grid__section-4 {
   grid-area: other-news;
 }
@@ -121,10 +119,21 @@ hr {
 .flex__item-5{
   flex-grow: 1;
 }
+/* Grid Section 2 - Nested Grid Styles */
+.grid__section-2{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
 
 
 
+
+/* Grid Section 3 Styles */
+
+
+/* Remaining Section Styles */
 
 /* Responsive Styles */
 
