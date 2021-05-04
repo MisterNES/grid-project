@@ -62,31 +62,19 @@ hr {
 .grid__section{
   border: 1px solid #333333
 }
-
-
-
 /* Grid Section 1 - Flex Styles */
-
-
 .grid__section-1 {
   grid-area: header;
 }
-
 /* Grid Section 2 - Nested Grid Styles */
-
 .grid__section-2 {
   grid-area: main;
 }
-
-
 /* Grid Section 3 Styles */
-
 .grid__section-3 {
   grid-area: sidebar;
 }
-
 /* Remaining Section Styles */
-
 .grid__section-4 {
   grid-area: other-news;
 }
@@ -114,6 +102,29 @@ hr {
 .grid__section-10 {
   grid-area: footer;
 }
+
+.flex-container-1{
+  display: flex;
+  height: 85px;
+}
+.flex__item{
+  display:inline;
+  height: inherit;
+}
+
+.flex__item-1,
+.flex__item-2,
+.flex__item-3{
+  flex-grow:2
+}
+.flex__item-4,
+.flex__item-5{
+  flex-grow: 1;
+}
+
+
+
+
 
 /* Responsive Styles */
 
